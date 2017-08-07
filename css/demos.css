@@ -1,0 +1,38 @@
+body, html {
+  height: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.pageheader{position: fixed;left:0;top:0; text-align:left;
+  font-size: 18px;height:44px;line-height:44px;
+  color: #fff;
+  font-weight: 400;
+  width:100%;
+  background: #00b600;
+  z-index:3;
+  text-align: center;
+}
+.pageheader .logo{vertical-align: middle;height:60%;width:auto;}
+.homeList{margin:0 15px;}
+.weui-grid__icon{width: 50px;height: 50px;}
+.weui-tab__panel{padding-top:44px;}
+.weui-tab__bd{padding-top:44px;}
+.weui-tabbar__icon img{width:auto;height:100%;}
+.weui-cells__title{font-size:18px;color:#494949;}
+
+/*电影*/
+.vdolist{padding:0 12px;}
+.vdolist .weui-flex{padding-bottom:10px;}
+.vdolist .weui-flex__item{padding:0 3px;}
+.vdolist .weui-flex__item img{width: 100%; vertical-align: middle;}
+.vdolist .weui-flex__item p{text-align: center;font-size: 14px;padding:0;}
+/*列表*/
+.weui-panel__hd{text-align: center;padding-bottom: 0;font-size:0.85em;line-height: 2;border:none;}
+.weui-panel__hd:after{display:none;}
+.weui-panel__hd img{width:100%; vertical-align: middle;}
+.weui-panel a .weui-media-box__title{ color:#000;}
+/*内容*/
+.weui-article{padding-bottom:60px;}
+.article_hd{font-size: 24px;line-height:2;text-align: center;}
+
+.tac{text-align: center;}
